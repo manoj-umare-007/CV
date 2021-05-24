@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Js practice</title>
+    <script type="text/javascript">
+      function show()
+        {
+          var value1 = document.getElementById("name").value;
+
+          var value2 = document.getElementById("city").value;
+          document.writeln(value1);
+          document.writeln(value2);
+        }
+    </script>
+
+  </head>
+  <body>
+  <label for="name">User Name</label>  <input type="text" id="name" name="name" value="name">
+  <label for="name">City</label>  <input type="text" id="city" name="name" value="name">
+  <button type="button" onclick="show()" name="button">click me !</button>
+  </body>
+</html>

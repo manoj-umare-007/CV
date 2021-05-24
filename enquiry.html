@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <meta charset="utf-8">
+    <title>Registeration Form</title>
+    <script type="text/javascript">
+            function formData()
+               {
+
+               }    
+               function bodyload()
+                 {
+                   formData();
+                 }
+
+    </script>
+  </head>
+  <body onload="">
+    <form class="form" action="" method="post">
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+              <center>
+              <table style="border-collapse:separate;border-spacing: 0 15px">
+                <thead>
+                  <tr>
+                    <th>Registeration form</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" name="name" value="" placeholder="Enter name"></td>
+                  </tr>
+
+                  <tr>
+                    <td>Age</td>
+                    <td><input type="text" id="age" name="age" value="" placeholder="Enter age"></td>
+                  </tr>
+
+                  <tr>
+                    <td>Sex</td>
+                    <td>Male:<input type="radio" id="gender" name="gender" value="male">Female:<input type="radio" name="gender" value="female"></td>
+                  </tr>
+
+                  <tr>
+                    <td>Mobile no</td>
+                    <td><input type="tel" id="mobileno" name="mobileno" value="" placeholder="Enter mobileno"></td>
+                  </tr>
+
+                  <tr>
+                    <td>Date Of Birth</td>
+                    <td><input type="date" id="dob" name="dob" value="" placeholder="Enter Date Of Birth"></td>
+                  </tr>
+                  <tr>
+                    <td>Time</td>
+                    <td><input type="time" id="time" name="time" value="time" placeholder="Enter timing of birth"></td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email" name="email" value="" placeholder="Enter email"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><button type="button" onclick="bodyload()" name="button">Submit</button></td>
+                  </tr>
+                </tbody>
+              </table>
+              </center>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
